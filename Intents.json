@@ -1,0 +1,142 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "calculadora esaú",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hola",
+                        "como estás",
+                        "di hola mundo",
+                        "di hola",
+                        "hola mundo"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SumaIntent",
+                    "slots": [
+                        {
+                            "name": "numerouno",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "numerodos",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Cuanto es {numerouno} más {numerodos}",
+                        "Suma {numerouno} y {numerodos}",
+                        "Suma {numerouno} más {numerodos}"
+                    ]
+                },
+                {
+                    "name": "RestaIntent",
+                    "slots": [
+                        {
+                            "name": "numerouno",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "numerodos",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Cuanto es {numerouno} menos {numerodos}",
+                        "Resta {numerouno} y {numerodos}",
+                        "Resta {numerouno} menos {numerodos}"
+                    ]
+                },
+                {
+                    "name": "DivisionIntent",
+                    "slots": [
+                        {
+                            "name": "numerouno",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "numerodos",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Cuanto es {numerouno} entre {numerodos}",
+                        "Divide {numerouno} entre {numerodos}",
+                        "Resultado de {numerouno} entre {numerodos}"
+                    ]
+                },
+                {
+                    "name": "MultiplicacionIntent",
+                    "slots": [
+                        {
+                            "name": "numerouno",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "numerodos",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Cuanto es {numerouno} por {numerodos}",
+                        "Multiplica {numerouno} por {numerodos}",
+                        "Resultado de {numerouno} por {numerodos}"
+                    ]
+                },
+                {
+                    "name": "PotenciaIntent",
+                    "slots": [
+                        {
+                            "name": "numerouno",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "numerodos",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{numerouno} elevado a la {numerodos}",
+                        "{numerouno} elevado a la {numerodos} potencia",
+                        "{numerouno} a la potencia {numerodos}",
+                        "calcula la potencia de {numerouno} elevado a {numerodos}"
+                    ]
+                },
+                {
+                    "name": "SenoIntent",
+                    "slots": [
+                        {
+                            "name": "numerouno",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Seno de {numerouno}",
+                        "Calcula el seno de {numerouno}",
+                        "Cual es el seno de {numerouno}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
