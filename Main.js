@@ -13,12 +13,14 @@ const Componente = () => {
           <p>Este es un párrafo dentro de la sección de introducción.</p>
           <button onClick={() => alert('¡Botón clickeado!')}>Haz clic en mí</button>
         </section>
+
         <section>
+
           <h2>Otra Sección</h2>
           <ul>
-            <li>Elemento de lista 1</li>
-            <li>Elemento de lista 2</li>
-            <li>Elemento de lista 3</li>
+            <li>UNO</li>
+            <li>DOS</li>
+            <li>TRES</li>
           </ul>
         </section>
       </main>
